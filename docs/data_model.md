@@ -4,7 +4,7 @@
 
 ```mermaid
 erDiagram
-    CUSTOMERS ||--o{ ORDERS : places
+    CUSTOMERS o|--o{ ORDERS : places
     ORDERS ||--|{ ORDER_ITEMS : contains
     PRODUCTS ||--o{ ORDER_ITEMS : included_in
 
