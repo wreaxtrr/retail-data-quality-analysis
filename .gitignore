@@ -12,6 +12,7 @@ data/processed/*
 
 *.xlsx
 *.pkl
+*.csv
 
 .idea/
 .vscode/
